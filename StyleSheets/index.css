@@ -26,6 +26,7 @@ body {
     font-size: 150%;
     font: Helvetica;
     flex-shrink: 0;
+    text-decoration: none;
 
 }
 .header a:hover {
@@ -41,7 +42,6 @@ body {
 .LogoMain {
     display: flex;
     height: 30px;
-    align: left;
     padding-left: 2%;
 }
 
