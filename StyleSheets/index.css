@@ -7,28 +7,31 @@ body {
     color: white;
     background-color: #0d1117;
     width: 100%
-    
 }
 
-.headercontainer{
+.headercontainer {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
     padding-top: 2%;
     flex-shrink: 0;
 }
+
 .header a {
     display: flex;
     font-size: 150%;
     font: Helvetica;
     flex-shrink: 0;
     text-decoration: none;
+    color: white;
 
 }
+
 .header a:hover {
     display: flex;
     color: rgb(0, 129, 215);
@@ -36,7 +39,7 @@ body {
     text-decoration: none;
     font-size: 150%;
     flex-shrink: 0;
-    
+
 }
 
 .LogoMain {
@@ -48,7 +51,20 @@ body {
 .Content {
     display: flex;
     gap: 30%;
-    padding-left: 58%
-    
+    padding-left: 58%;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
