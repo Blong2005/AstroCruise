@@ -32,6 +32,10 @@ body {
 
 }
 
+.header a:visited {
+    color: white;
+}
+
 .header a:hover {
     display: flex;
     color: rgb(0, 129, 215);
