@@ -1,42 +1,40 @@
 body {
-    display: flex;
     margin: 0;
     min-height: 100vh;
     flex-direction: column;
     font-family: sans-serif;
     color: white;
     background-color: #0d1117;
-    width: 100%
+    width: 100%;
+    max-width: 1920px;
 }
 
-.headercontainer {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-}
 
-.header {
+.NavBar {
     display: flex;
     align-items: center;
-    padding-top: 2%;
     flex-shrink: 0;
+    margin: 0;
+    padding: 1rem;
+    flex-wrap: wrap;
 }
 
-.header a {
+.NavBar a {
     display: flex;
     font-size: 150%;
     font: Helvetica;
     flex-shrink: 0;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 
 }
 
-.header a:visited {
+.NavBar a:visited {
     color: white;
 }
 
-.header a:hover {
+.NavBar a:hover {
     display: flex;
     color: rgb(0, 129, 215);
     cursor: pointer;
@@ -46,17 +44,22 @@ body {
 
 }
 
-.LogoMain {
+#LogoMain {
     display: flex;
     height: 30px;
-    padding-left: 2%;
+    cursor: pointer;
+    margin-left: 1%;
 }
 
-.Content {
+.NavList {
     display: flex;
-    gap: 30%;
-    padding-left: 58%;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10%;
+    margin-left: auto;
+    padding-right: 1%;
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
@@ -71,4 +74,5 @@ body {
 @media only screen and (min-width: 992px) {}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}
