@@ -60,6 +60,10 @@ body {
     padding-right: 1%;
 }
 
+#page_border {
+    border-right: 1px solid;
+    padding-right: 136%;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
