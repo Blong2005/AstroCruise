@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 1rem;
     flex-wrap: wrap;
+    flex-grow: 0;
 }
 
 .NavBar a {
@@ -34,14 +35,18 @@ body {
     color: white;
 }
 
-.NavBar a:hover {
+.NvaList a:hover {
     display: flex;
     color: rgb(0, 129, 215);
     cursor: pointer;
     text-decoration: none;
     font-size: 150%;
-    flex-shrink: 0;
+    align-items: center;
 
+}
+
+.NavListRight a:hover {
+    color: white;
 }
 
 #LogoMain {
@@ -62,9 +67,41 @@ body {
 
 #page_border {
     border-right: 1px solid;
-    padding-right: 136%;
 }
 
+li:hover {
+    border-bottom: 1px solid;
+    padding-bottom: 1%;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: auto;
+    border-color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 rgb(0, 129, 215);
+    transition: ease-out 0.3s;
+    text-shadow: none;
+}
+
+
+
+button:hover {
+    box-shadow: inset 140px 0 0 0 rgb(0, 129, 215);
+}
+
+button:active {
+    display: flex;
+    background-color: white;
+    height: 40px;
+    width: 110px;
+
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {}
 
