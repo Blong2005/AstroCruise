@@ -67,6 +67,8 @@ body {
 
 #page_border {
     border-right: 1px solid;
+    max-height: 30px;
+    min-height: 30px;
 }
 
 li:hover {
