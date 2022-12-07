@@ -63,14 +63,21 @@ body {
     margin-left: auto;
     padding-right: 1%;
 }
-
+.NavListRight {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10%;
+    padding-right: 1%;
+    padding-left: 3%;
+}
 #page_border {
     border-right: 1px solid;
     max-height: 30px;
     min-height: 30px;
 }
 
-li:hover {
+.NavList li:hover {
     border-bottom: 1px solid;
     
 }
