@@ -18,6 +18,7 @@ body {
     padding: 1rem;
     flex-wrap: wrap;
     flex-grow: 0;
+    width: 100%;
 }
 
 .NavBar a {
@@ -59,7 +60,7 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    gap: 10%;
+    gap: 5%;
     margin-left: auto;
     padding-right: 1%;
 }
