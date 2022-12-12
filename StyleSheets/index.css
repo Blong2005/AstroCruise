@@ -99,11 +99,6 @@ button {
 
 }
 
-.tagline {
-    color: white;
-    text-align: center;
-    position: relative;
-}
 
 button:hover {
     box-shadow: inset 140px 0 0 0 rgb(0, 129, 215);
@@ -112,8 +107,8 @@ button:hover {
 button:active {
     display: flex;
     background-color: white;
-    height: 40px;
-    width: 110px;
+    width: 140px;
+    opacity: 50%;
 
 }
 .background {
@@ -122,6 +117,12 @@ button:active {
     height: 1000px;
     position: relative;
     opacity: 100%;
+}
+.tagline {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 6em;
 }
 .background::before{
     content: "";
