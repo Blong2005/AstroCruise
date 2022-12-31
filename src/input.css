@@ -12,3 +12,4 @@
     a:hover::after{
         @apply w-[100%]
 }
+}
