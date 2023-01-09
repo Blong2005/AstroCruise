@@ -9,19 +9,24 @@
     <link rel="icon" type="image/x-icon" href="/Images/Blacklogo.png">
 </head>
 <body class="bg-slate-900">
-    <section class="header w-full" src="../Images/Hand.jpg">
-        <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0 bg-slate-900">
+    <div class=" w-full h-screen bg-no-repeat bg-cover flex ">
+        <img src="/Images/SpaceX-Falcon-9-launch-in-night-sky.jpg" class="absolute w-full h-screen bg-no-repeat bg-cover opacity-40" alt="backgroundimage">
+        <div class="w-full flex justify-center flex-col gap-10">
+            <img src="/Images/Tagline.png" class=" lg:w-6/12 sm:w-full mx-auto flex self-center relative mb-5" alt="Tagline">
+            <button class="border-white border-2 flex mx-auto self-center px-8 py-3 text-white text-2xl relative hover:bg-fuchsia-600 rounded-lg ease-in duration-300">Launches</button>
+        </div>
+
+        <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
             <!--Moblie Menu-->
-            <div class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
+                    <div class="moblie-menu m-0 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transitionduration-1000ease-in-out overflow-auto">
                 <button class="px-1 py-1 exit-button">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
                         class="w-7 h-7">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
-
                 <div class="flex justify-center">
-                    <div class="flex flex-col py-10 space-y-5 content-evenly text-xl  ">
+                    <div class="flex flex-col py-10 space-y-5 content-evenly text-xl">
                         <a href="FAQ.html">
                             <div class>FAQ</div>
                         </a>
@@ -47,8 +52,7 @@
             <a href="index.html">
                     <img class="max-w-full h-8" src="../Images/Logo.png" alt="AstroCruiseLogo">
                 </a>
-                </div>
-    
+                </div>    
                     <!--primary nav-->
                 <div class="hidden md:flex lg:flex space-x-5 text-2xl font-sans text-yellow-50 items-center ">
                     <a href="FAQ.html">
@@ -75,13 +79,40 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                         </svg>
-
                     </button>
                 </div>
             </div>
         </nav>
-    </section>
+    </div>
     <!--Content-->
+    <div class="flex">
+        <div class="w-1/2 border-green-400 border-4 text-white my-10 text-lg">
+        <p> At Astrocruise, we are on a mission to make space travel accessible and exciting for everyone. As pioneers in   the
+        industry, we have been dedicated to this goal for years, and we are proud to have developed a reputation for    delivering
+            safe and unforgettable space tourism experiences. <br>
+            
+        <br>Our team is made up of some of the most talented and passionate professionals in the field, including former    astronauts,
+        aerospace engineers, and space enthusiasts. We are all united by our love of exploration and our commitment to  making
+            space travel a reality for as many people as possible.<br>
+            
+            <br>When you book a trip with us, you can expect nothing but the best in terms of customer service and personalized
+            attention. From the moment you first contact us, you will be treated like a VIP, with every detail of your trip
+            carefully planned and executed to ensure that you have an incredible experience.<br>
+            
+        <br>We offer a wide range of space tourism packages to suit different budgets and interests, and we are always  working on
+        developing new and exciting offerings to give our guests the best possible experience. Whether you are an   experienced
+            space enthusiast or a first-time traveler, we have something for everyone.<br>
+            
+        <br>So if you have always dreamed of experiencing the thrill of rocket launch, floating weightlessly in zero    gravity, and
+        witnessing the breathtaking beauty of the galaxy, then Astrocruise is the place for you. We can't wait to welcome   you
+        aboard and help you achieve your dream of space travel. Join us on this incredible journey and let us help you take     your
+            first steps towards becoming an astronaut.</p>
+        </div>
+        <div class="border-purple-500 border-4 w-1/2 my-10">
+
+        </div>        
+    </div>
+
 </body>
 
 <!--JavaScript for menu toggle-->
