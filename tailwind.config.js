@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        trispace: "'Trispace', serif"
+      }
+    },
   },
   plugins: [require('@tailwindcss/aspect-ratio')],
 }
