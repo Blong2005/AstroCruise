@@ -9,25 +9,60 @@
     <link rel="icon" type="image/x-icon" href="/Images/Blacklogo.png">
 </head>
 <body class="bg-slate-900">
-    <nav class="overflow-x-hidden w-full border-solid border-2 border-blue-450 rounded-xl fixed top-0 left-0 right-0 bg-slate-900">
-        <!--Moblie Menu-->
-        <div class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
-            <button class="px-1 py-1 exit-button">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="w-7 h-7">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
+    <div class=" w-full h-screen bg-no-repeat bg-cover flex ">
+        <img src="/Images/SpaceX-Falcon-9-launch-in-night-sky.jpg" class="absolute w-full h-screen bg-no-repeat bg-cover opacity-40 bg-fixed" alt="backgroundimage">
+        <div class="w-full flex justify-center flex-col gap-10">
+            <img src="/Images/Tagline.png" class=" lg:w-7/12 sm:w-full mx-auto flex self-center relative mb-5" alt="Tagline">
+            <button class="border-white border-2 flex mx-auto self-center px-8 py-3 text-white text-2xl relative hover:bg-blue-400 rounded ease-in duration-300 hover:animate-pulse">Launches</button>
+            
+        </div>
 
-            <div class="flex justify-center">
-                <div class="flex flex-col py-10 space-y-5 content-evenly text-xl  ">
+        <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
+            <!--Moblie Menu-->
+                    <div class="moblie-menu m-0 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transitionduration-1000ease-in-out overflow-auto">
+                <button class="px-1 py-1 exit-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                        class="w-7 h-7">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+                <div class="flex justify-center">
+                    <div class="flex flex-col py-10 space-y-5 content-evenly text-xl">
+                        <a href="FAQ.html">
+                            <div class>FAQ</div>
+                        </a>
+                        <a href="Launches.html">
+                            <div>LAUNCHES</div>
+                        </a>
+                        <a href="Launches.html">
+                            <div>TRAINING</div>
+                        </a>
+                        <a href="Contact.html">
+                            <div>CONTACT</div>
+                        </a>
+                        <a href="Pricing.html">
+                            <div>PRICING</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="px-8">
+            <div class="flex justify-between">
+                <!--Logo-->
+                <div class="flex py-4">
+            <a href="index.html">
+                    <img class="max-w-full h-8" src="../Images/Logo.png" alt="AstroCruiseLogo">
+                </a>
+                </div>    
+                    <!--primary nav-->
+                <div class="hidden md:flex lg:flex space-x-5 text-2xl font-sans text-yellow-50 items-center ">
                     <a href="FAQ.html">
                         <div class>FAQ</div>
-                    </a>
+                    </a>    
                     <a href="Launches.html">
                         <div>LAUNCHES</div>
                     </a>
-                    <a href="Launches.html">
+                    <a href="Contact.html">
                         <div>TRAINING</div>
                     </a>
                     <a href="Contact.html">
@@ -37,77 +72,48 @@
                         <div>PRICING</div>
                     </a>
                 </div>
+                <!--Moblie button-->
+                <div class="md:hidden flex items-center">
+                    <button class="menu-button-moblie">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+                            class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="px-8">
-        <div class="flex justify-between">
-            <!--Logo-->
-            <div class="flex py-4">
-           <a href="index.html">
-                <img class="max-w-full h-8" src="../Images/Logo.png" alt="AstroCruiseLogo">
-            </a>
-            </div>
- 
-                <!--primary nav-->
-            <div class="hidden md:flex lg:flex space-x-5 text-2xl font-sans text-yellow-50 items-center ">
-                <a href="FAQ.html">
-                    <div class>FAQ</div>
-                </a>    
-                <a href="Launches.html">
-                    <div>LAUNCHES</div>
-                </a>
-                <a href="Contact.html">
-                    <div>TRAINING</div>
-                </a>
-                <a href="Contact.html">
-                    <div>CONTACT</div>
-                </a>
-                <a href="Pricing.html">
-                    <div>PRICING</div>
-                </a>
-            </div>
-            <!--Moblie button-->
-            <div class="md:hidden flex items-center">
-                <button class="menu-button-moblie">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
-                        class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                    </svg>
-
-                </button>
-            </div>
-        </div>
-    </nav>
-
+        </nav>
+    </div>
     <!--Content-->
-    <div class="py-20 object-center ">
-        <img class="h-100 my-0 mx-auto py-5" src="../Images/Tagline.png" alt="AstroCruiseLogo">
-        <img class="h-12 mx-auto my-0 " src="../Images/Logo.png" alt="AstroCruiseLogo">
-        
-    </div>
-    <hr class="px-10 mx-10">
-    <div class="bg-slate-900 w-screen grid grid-cols-2">
-        
-<div>
-<img src="../Images/Hand.jpg" alt="hand" class="w-300 h-100 float-left mx-10 py-5 rounded-lg">
-</div>
-<div class="mx-10">
-<h1 class="text-underline text-white text-2xl text-center">ABOUT US</h1>
-<hr class="px-10 mx-10">
-<p class="text-white px-5 mx-10 py-5 text-lg tracking-widest ">
-    Here at Astrocruise, we are passionate about making the dream of space travel a reality for everyone. With years of experience in the industry, we have developed a reputation for delivering safe and unforgettable experiences that allow our guests to experience the wonders of space firsthand.
-<br>Our team of dedicated professionals is made up of former astronauts, aerospace engineers, and space enthusiasts who are committed to providing the best possible experience for our guests. From the moment you book your trip with us, you will be treated like a VIP, with personalized attention and top-notch customer service at every step of the way.<br>
-Our space tourism trips offer a once-in-a-lifetime opportunity to witness the breathtaking beauty of our galaxy like you've never seen before, float weightlessly in zero gravity, and experience the thrill of rocket launch. We offer a variety of space tourism packages to suit different budgets and interests, and we are constantly developing new and exciting offerings to give our guests the best possible experience.
-So come join us on the adventure of a lifetime and make your dream of space travel a reality. <br><b>We can't wait to welcome you aboard!</b>
-</p>
-<p class="text-white px-5 mx-10 py-0 text-lg tracking-widest italic ">
-    -The Astrocruise Team
-</p>
-</div>
+    <div class="flex px-2">
+        <div class="w-1/2 border-green-400 border-4 text-white my-10 text-lg">
+        <p> At Astrocruise, we are on a mission to make space travel accessible and exciting for everyone. As pioneers in   the
+        industry, we have been dedicated to this goal for years, and we are proud to have developed a reputation for    delivering
+            safe and unforgettable space tourism experiences. <br>
+            
+        <br>Our team is made up of some of the most talented and passionate professionals in the field, including former    astronauts,
+        aerospace engineers, and space enthusiasts. We are all united by our love of exploration and our commitment to  making
+            space travel a reality for as many people as possible.<br>
+            
+            <br>When you book a trip with us, you can expect nothing but the best in terms of customer service and personalized
+            attention. From the moment you first contact us, you will be treated like a VIP, with every detail of your trip
+            carefully planned and executed to ensure that you have an incredible experience.<br>
+            
+        <br>We offer a wide range of space tourism packages to suit different budgets and interests, and we are always  working on
+        developing new and exciting offerings to give our guests the best possible experience. Whether you are an   experienced
+            space enthusiast or a first-time traveler, we have something for everyone.<br>
+            
+        <br>So if you have always dreamed of experiencing the thrill of rocket launch, floating weightlessly in zero    gravity, and
+        witnessing the breathtaking beauty of the galaxy, then Astrocruise is the place for you. We can't wait to welcome   you
+        aboard and help you achieve your dream of space travel. Join us on this incredible journey and let us help you take     your
+            first steps towards becoming an astronaut.</p>
+        </div>
+        <div class="border-purple-500 border-4 w-1/2 my-10">
 
+        </div>        
     </div>
-    <hr class="px-10 mx-10">
+
 </body>
 
 <!--JavaScript for menu toggle-->
