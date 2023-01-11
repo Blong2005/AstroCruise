@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroCruise</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png">
+    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Trispace:wght@500&display=swap"
+        rel="stylesheet">
 </head>
-<body class=" bg-fixed " style="background-image: url('Images/GALAXY.jpg')">
-    <nav class="overflow-x-hidden w-full bg-transparent fixed top-0 left-0 right-0 bg-slate-900">
+<body class=" bg-fixed font-trispace" style="background-image: url('Images/GALAXY.jpg')">
+    <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
         <!--Moblie Menu-->
         <div class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
             <button class="px-1 py-1 exit-button">
@@ -18,9 +22,8 @@
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
-
             <div class="flex justify-center">
-                <div class="flex flex-col py-10 space-y-5 content-evenly text-xl  ">
+                <div class="flex flex-col py-10 space-y-5 content-evenly text-xl">
                     <a href="FAQ.html">
                         <div class>FAQ</div>
                     </a>
@@ -43,13 +46,12 @@
         <div class="flex justify-between">
             <!--Logo-->
             <div class="flex py-4">
-           <a href="index.html">
+        <a href="index.html">
                 <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
             </a>
-            </div>
- 
+            </div>    
                 <!--primary nav-->
-            <div class="hidden md:flex lg:flex space-x-5 text-2xl font-sans text-yellow-50 items-center ">
+            <div class="hidden md:flex lg:flex space-x-5 text-2xl text-yellow-50 items-center ">
                 <a href="FAQ.html">
                     <div class>FAQ</div>
                 </a>    
@@ -74,7 +76,6 @@
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                     </svg>
-
                 </button>
             </div>
         </div>
@@ -179,7 +180,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
           </svg>
         </div>
-          <p class="relative mb-8 lg:mb-16 font-medium text-center text-white sm:text-xl my-10">Any questions? Visit our <u>Contact page</u>. You can also Email us at <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u></p>
+          <p class="relative mb-8 lg:mb-16 font-medium text-center text-white sm:text-xl my-10">Any questions? Visit our <b><a href="../dist/Contact.html">Contact page</a>.</b> You can also Email us at <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u></p>
 
     
         
