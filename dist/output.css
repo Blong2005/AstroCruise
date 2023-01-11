@@ -993,6 +993,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1202,6 +1206,10 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -1217,6 +1225,10 @@ video {
 
   .sm\:flex-col {
     flex-direction: column;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
   }
 
   .sm\:space-y-11 > :not([hidden]) ~ :not([hidden]) {
@@ -1277,6 +1289,10 @@ video {
 
   .lg\:w-16 {
     width: 4rem;
+  }
+
+  .lg\:flex-none {
+    flex: none;
   }
 
   .lg\:justify-between {
