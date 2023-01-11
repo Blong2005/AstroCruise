@@ -1293,6 +1293,11 @@ video {
     line-height: 2rem;
   }
 
+  .lg\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:opacity-100 {
     opacity: 1;
   }
