@@ -3,9 +3,11 @@ module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
     extend: {
-  
       fontFamily: {
         trispace: "'Trispace', serif"
+      },
+      backgroundImage: {
+        'rocket' : 'url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/SpaceX-Falcon-9-launch-in-night-sky.jpg?raw=true")'
       }
     },
   },
