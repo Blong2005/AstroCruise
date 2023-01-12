@@ -643,20 +643,20 @@ video {
   height: 3rem;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
-.h-16 {
-  height: 4rem;
-}
-
 .h-screen {
   height: 100vh;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-10 {
   height: 2.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .min-h-screen {
@@ -683,8 +683,8 @@ video {
   width: 3rem;
 }
 
-.w-16 {
-  width: 4rem;
+.w-8 {
+  width: 2rem;
 }
 
 .w-1\/2 {
@@ -695,8 +695,8 @@ video {
   width: 2.5rem;
 }
 
-.w-8 {
-  width: 2rem;
+.w-16 {
+  width: 4rem;
 }
 
 .max-w-full {
@@ -802,10 +802,6 @@ video {
 
 .self-center {
   align-self: center;
-}
-
-.justify-self-center {
-  justify-self: center;
 }
 
 .overflow-auto {
@@ -987,18 +983,13 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .text-left {
@@ -1084,12 +1075,16 @@ video {
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
 
+.opacity-0 {
+  opacity: 0;
+}
+
 .opacity-40 {
   opacity: 0.4;
 }
 
-.opacity-0 {
-  opacity: 0;
+.opacity-100 {
+  opacity: 1;
 }
 
 .shadow-sm {
@@ -1210,15 +1205,6 @@ video {
     grid-column: span 2 / span 2;
   }
 
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sm\:flex {
-    display: flex;
-  }
-
   .sm\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
@@ -1228,16 +1214,8 @@ video {
     width: 100%;
   }
 
-  .sm\:flex-row {
-    flex-direction: row;
-  }
-
   .sm\:flex-col {
     flex-direction: column;
-  }
-
-  .sm\:justify-center {
-    justify-content: center;
   }
 
   .sm\:space-y-11 > :not([hidden]) ~ :not([hidden]) {
@@ -1246,18 +1224,9 @@ video {
     margin-bottom: calc(2.75rem * var(--tw-space-y-reverse));
   }
 
-  .sm\:py-10 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:opacity-0 {
-    opacity: 0;
   }
 }
 
@@ -1269,18 +1238,9 @@ video {
   .md\:hidden {
     display: none;
   }
-
-  .md\:justify-between {
-    justify-content: space-between;
-  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .lg\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -1293,20 +1253,16 @@ video {
     height: 4rem;
   }
 
+  .lg\:w-16 {
+    width: 4rem;
+  }
+
   .lg\:w-7\/12 {
     width: 58.333333%;
   }
 
   .lg\:w-1\/2 {
     width: 50%;
-  }
-
-  .lg\:w-16 {
-    width: 4rem;
-  }
-
-  .lg\:flex-none {
-    flex: none;
   }
 
   .lg\:justify-between {
