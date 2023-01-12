@@ -647,12 +647,24 @@ video {
   height: 7rem;
 }
 
+.h-16 {
+  height: 4rem;
+}
+
 .h-screen {
   height: 100vh;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-10 {
   height: 2.5rem;
+}
+
+.h-16 {
+  height: 4rem;
 }
 
 .min-h-screen {
@@ -689,6 +701,10 @@ video {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-full {
@@ -887,6 +903,11 @@ video {
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
+}
+
 .bg-none {
   background-image: none;
 }
@@ -984,6 +1005,10 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1057,6 +1082,16 @@ video {
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-blue-200 {
+  --tw-text-opacity: 1;
+  color: rgb(191 219 254 / var(--tw-text-opacity));
+}
+
 .placeholder-gray-400::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
@@ -1067,8 +1102,12 @@ video {
   color: rgb(156 163 175 / var(--tw-placeholder-opacity));
 }
 
-.opacity-0 {
-  opacity: 0;
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .opacity-40 {
@@ -1212,16 +1251,9 @@ video {
     margin-bottom: calc(2.75rem * var(--tw-space-y-reverse));
   }
 
-  .sm\:bg-contain {
-    background-size: contain;
-  }
-
-  .sm\:bg-cover {
-    background-size: cover;
-  }
-
-  .sm\:bg-center {
-    background-position: center;
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .sm\:text-xl {
@@ -1239,16 +1271,17 @@ video {
     display: none;
   }
 
-  .md\:bg-contain {
-    background-size: contain;
-  }
-
-  .md\:bg-cover {
-    background-size: cover;
+  .md\:justify-between {
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:mb-16 {
     margin-bottom: 4rem;
   }
