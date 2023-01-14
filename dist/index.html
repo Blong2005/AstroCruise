@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroCruise</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png"> 
+    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Trispace:wght@500&display=swap"
         rel="stylesheet">
 </head>
+
 <body class="bg-slate-900 font-trispace">
     <div class=" w-full h-screen bg-no-repeat bg-cover flex justify-center">
-        <div class="absolute w-full h-screen bg-no-repeat bg-cover bg-center opacity-40 bg-fixed bg-rocket aspect-auto" alt="backgroundimage"></div>
-        <div class="w-full flex justify-center flex-col gap-10">
-            <img src="./Images/Tagline.png" class=" lg:w-7/12 sm:w-full mx-auto flex self-center relative mb-5" alt="Tagline">
-            <div class="text-white w-1/2 text-center flex mx-auto">Welcome to Austrocruise&trade;, a space tourism company that can take you to the stars.<br>Our mission is to bring space travel to the public, making the beauty of our universe more accessible. We'll see you out there!</div>
-            <button class="border-white border-2 flex mx-auto self-center px-8 py-3 text-white text-2xl relative hover:bg-blue-400 rounded ease-in duration-300 hover:animate-pulse "><b>Launches</b></button>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-10 h-10 animate-bounce mx-auto">
+        <div class="absolute w-full h-screen bg-no-repeat bg-cover bg-center opacity-40 bg-fixed bg-rocket aspect-auto"
+            alt="backgroundimage"></div>
+        <div class="w-full flex justify-center flex-col sm:gap-10 gap-7">
+            <img src="./Images/Tagline.png" class="sm:w-7/12 w-9/12 mx-auto flex self-center relative sm:mb-5 mb-0"
+                alt="Tagline">
+            <div class="text-white w-1/2 text-center flex mx-auto lg:text-base md:text-base sm:text-base text-xs">
+                Welcome to
+                Austrocruise&trade;, a space tourism company that can take you to the stars.<br>Our mission is to bring
+                space travel to the public, making the beauty of our universe more accessible. We'll see you out there!
+            </div>
+            <button
+                class="border-white border flex mx-auto self-center sm:px-8 sm:py-3 px-4 py-3 text-white sm:text-2xl text-base relative hover:bg-blue-400 rounded ease-in duration-300 hover:animate-pulse "><b>Launches</b></button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"
+                class="w-10 h-10 animate-bounce mx-auto">
                 <path fill-rule="evenodd"
                     d="M20.03 4.72a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 11.69l6.97-6.97a.75.75 0 011.06 0zm0 6a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 111.06-1.06L12 17.69l6.97-6.97a.75.75 0 011.06 0z"
                     clip-rule="evenodd" />
             </svg>
 
-            
+
         </div>
 
         <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
             <!--Moblie Menu-->
-            <div class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
+            <div
+                class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
                 <button class="px-1 py-1 exit-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        class="w-7 h-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-7 h-7">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                     </svg>
                 </button>
@@ -57,43 +68,43 @@
                     </div>
                 </div>
             </div>
-            <div class="px-8">
-            <div class="flex justify-between">
-                <!--Logo-->
-                <div class="flex py-4">
-            <a href="index.html">
-                    <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
-                </a>
-                </div>    
+            <div class="px-[1rem] sm:px-8">
+                <div class="flex justify-between">
+                    <!--Logo-->
+                    <div class="flex py-4">
+                        <a href="index.html">
+                            <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
+                        </a>
+                    </div>
                     <!--primary nav-->
-                <div class="hidden md:flex lg:flex space-x-5 text-2xl text-yellow-50 items-center ">
-                    <a href="FAQ.html">
-                        <div class>FAQ</div>
-                    </a>    
-                    <a href="Launches.html">
-                        <div>LAUNCHES</div>
-                    </a>
-                    <a href="Contact.html">
-                        <div>TRAINING</div>
-                    </a>
-                    <a href="Contact.html">
-                        <div>CONTACT</div>
-                    </a>
-                    <a href="Pricing.html">
-                        <div>PRICING</div>
-                    </a>
+                    <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center">
+                        <a href="FAQ.html">
+                            <div class>FAQ</div>
+                        </a>
+                        <a href="Launches.html">
+                            <div>LAUNCHES</div>
+                        </a>
+                        <a href="Contact.html">
+                            <div>TRAINING</div>
+                        </a>
+                        <a href="Contact.html">
+                            <div>CONTACT</div>
+                        </a>
+                        <a href="Pricing.html">
+                            <div>PRICING</div>
+                        </a>
+                    </div>
+                    <!--Moblie button-->
+                    <div class="md:hidden flex items-center">
+                        <button class="menu-button-moblie">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="white" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
-                <!--Moblie button-->
-                <div class="md:hidden flex items-center">
-                    <button class="menu-button-moblie">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
-                            class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                        </svg>
-                    </button>
-                </div>
-            </div>
         </nav>
     </div>
     <!--Content-->
@@ -101,68 +112,86 @@
         <div class="w-full border-green-400 border-4 text-white my-10 text-lg p-3 space-y-32 ">
             <div class="border-pink-400 border-2 flex items-center justify-evenly flex-wrap sm:space-y-11">
                 <div class="lg:w-1/2 border-white border-2 sm:w-full">
-                    <p> At Astrocruise, we are on a mission to make space travel accessible and exciting for everyone. As pioneers in   the industry, we have been dedicated to this goal for years, and we are proud to have developed a reputation for    delivering safe and unforgettable space tourism experiences. <br></div>
+                    <p> At Astrocruise, we are on a mission to make space travel accessible and exciting for everyone.
+                        As pioneers in the industry, we have been dedicated to this goal for years, and we are proud to
+                        have developed a reputation for delivering safe and unforgettable space tourism experiences.
+                        <br>
+                </div>
 
                 <img class="rounded" r src="https://picsum.photos/500/300" alt="placeholder">
             </div>
 
             <div class="border-pink-400 border-2 flex items-center justify-evenly flex-wrap sm:space-y-11">
                 <div class="lg:w-1/2 border-white border-2 sm:w-full">
-                    <p> Meet the Astrocruise <b><i>Phoenix,</i></b> our flagship spacecraft. With a capacity of 200 passengers, we pride ourselves on our ability to make a rocket feel like home. The propulsion engines and oxygen filtration system are the latest and safest in the industry, rivalling organizations as advanced as NASA. The <i>Phoenix</i> is sleek, refined, and the definition of innovation. Additional information about our various vessels can be located in our <a href="Launches.html">Launches</a> page. <br></div>
+                    <p> Meet the Astrocruise <b><i>Phoenix,</i></b> our flagship spacecraft. With a capacity of 200
+                        passengers, we pride ourselves on our ability to make a rocket feel like home. The propulsion
+                        engines and oxygen filtration system are the latest and safest in the industry, rivalling
+                        organizations as advanced as NASA. The <i>Phoenix</i> is sleek, refined, and the definition of
+                        innovation. Additional information about our various vessels can be located in our <a
+                            href="Launches.html">Launches</a> page. <br>
+                </div>
 
                 <img class="rounded" r src="./Images/PHOENIXNOTEXT.jpg" alt="placeholder">
             </div>
 
             <div class="border-pink-400 border-2 flex items-center justify-evenly flex-wrap sm:space-y-11">
                 <div class="lg:w-1/2 border-white border-2 sm:w-full">
-                    <br> Our team is made up of some of the most talented and passionate professionals in the field, including former
-                    astronauts,aerospace engineers, and space enthusiasts. We are all united by our love of exploration and our commitment
+                    <br> Our team is made up of some of the most talented and passionate professionals in the field,
+                    including former
+                    astronauts,aerospace engineers, and space enthusiasts. We are all united by our love of exploration
+                    and our commitment
                     to making space travel a reality for as many people as possible.<br>
                 </div>
-            
+
                 <img class="rounded" r src="https://picsum.photos/500/300" alt="placeholder">
             </div>
 
             <div class="border-pink-400 border-2 flex items-center justify-evenly flex-wrap sm:space-y-11">
                 <div class="lg:w-1/2 border-white border-2 sm:w-full">
-        <br>We offer a wide range of space tourism packages to suit different budgets and interests, and we are always working
-        on
-        developing new and exciting offerings to give our guests the best possible experience. Whether you are an experienced
-        space enthusiast or a first-time traveler, we have something for everyone.<br>
+                    <br>We offer a wide range of space tourism packages to suit different budgets and interests, and we
+                    are always working
+                    on
+                    developing new and exciting offerings to give our guests the best possible experience. Whether you
+                    are an experienced
+                    space enthusiast or a first-time traveler, we have something for everyone.<br>
                 </div>
-            
+
                 <img class="rounded" r src="https://picsum.photos/500/300" alt="placeholder">
             </div>
 
             <div class="border-pink-400 border-2 flex items-center justify-evenly flex-wrap sm:space-y-11">
                 <div class="lg:w-1/2 border-white border-2 sm:w-full">
-                    <br>So if you have always dreamed of experiencing the thrill of rocket launch, floating weightlessly in zero gravity, and witnessing the breathtaking beauty of the galaxy, then Astrocruise is the place for you. We can't wait to welcome you aboard and help you achieve your dream of space travel. Join us on this incredible journey and let us help you take your first steps towards becoming an astronaut.</p>
+                    <br>So if you have always dreamed of experiencing the thrill of rocket launch, floating weightlessly
+                    in zero gravity, and witnessing the breathtaking beauty of the galaxy, then Astrocruise is the place
+                    for you. We can't wait to welcome you aboard and help you achieve your dream of space travel. Join
+                    us on this incredible journey and let us help you take your first steps towards becoming an
+                    astronaut.</p>
                 </div>
-            
+
                 <img class="rounded" r src="https://picsum.photos/500/300" alt="placeholder">
             </div>
-        </div>      
+        </div>
     </div>
 
 </body>
 
 <!--JavaScript for menu toggle-->
 <script>
-const btn = document.querySelector(".menu-button-moblie");
-const menu = document.querySelector(".moblie-menu")
+    const btn = document.querySelector(".menu-button-moblie");
+    const menu = document.querySelector(".moblie-menu")
 
-btn.addEventListener("click", () =>{
-    menu.classList.toggle("translate-x-full")
-})
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("translate-x-full")
+    })
 
-const exit_btn = document.querySelector(".exit-button");
-exit_btn.addEventListener("click", ()=>{
-    menu.classList.toggle("translate-x-full")
-})
+    const exit_btn = document.querySelector(".exit-button");
+    exit_btn.addEventListener("click", () => {
+        menu.classList.toggle("translate-x-full")
+    })
 
-moblieMenu.style.overflow = 'hidden';
+    moblieMenu.style.overflow = 'hidden';
 
-</script> 
+</script>
 
 
 

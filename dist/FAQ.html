@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AstroCruise</title>
     <link rel="stylesheet" href="output.css">
-    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png"> 
+    <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Trispace:wght@500&display=swap"
         rel="stylesheet">
-        <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class=" bg-fixed font-trispace bg-slate-900" style="background-image: url('Images/GALAXY.jpg')">
     <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
         <!--Moblie Menu-->
-        <div class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
+        <div
+            class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
             <button class="px-1 py-1 exit-button">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                    class="w-7 h-7">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-7 h-7">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
@@ -44,63 +47,70 @@
             </div>
         </div>
         <div class="px-8">
-        <div class="flex justify-between">
-            <!--Logo-->
-            <div class="flex py-4">
-        <a href="index.html">
-                <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
-            </a>
-            </div>    
+            <div class="flex justify-between">
+                <!--Logo-->
+                <div class="flex py-4">
+                    <a href="index.html">
+                        <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
+                    </a>
+                </div>
                 <!--primary nav-->
-            <div class="hidden md:flex lg:flex space-x-5 text-2xl text-yellow-50 items-center ">
-                <a href="FAQ.html">
-                    <div class>FAQ</div>
-                </a>    
-                <a href="Launches.html">
-                    <div>LAUNCHES</div>
-                </a>
-                <a href="Contact.html">
-                    <div>TRAINING</div>
-                </a>
-                <a href="Contact.html">
-                    <div>CONTACT</div>
-                </a>
-                <a href="Pricing.html">
-                    <div>PRICING</div>
-                </a>
+                <div class="hidden md:flex lg:flex space-x-5 text-2xl text-yellow-50 items-center ">
+                    <a href="FAQ.html">
+                        <div class>FAQ</div>
+                    </a>
+                    <a href="Launches.html">
+                        <div>LAUNCHES</div>
+                    </a>
+                    <a href="Contact.html">
+                        <div>TRAINING</div>
+                    </a>
+                    <a href="Contact.html">
+                        <div>CONTACT</div>
+                    </a>
+                    <a href="Pricing.html">
+                        <div>PRICING</div>
+                    </a>
+                </div>
+                <!--Moblie button-->
+                <div class="md:hidden flex items-center">
+                    <button class="menu-button-moblie">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="white" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <!--Moblie button-->
-            <div class="md:hidden flex items-center">
-                <button class="menu-button-moblie">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
-                        class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                    </svg>
-                </button>
-            </div>
-        </div>
     </nav>
 
     <!--Content-->
-    
+
     <div class="py-20 font-trispace h-screen ease-in-out">
         <img src="./Images/FAQ.png" alt="FAQ" class=" mx-auto h-28 my-20 sm:h-30 ease-in duration-1000">
-    
-     
-        
+
+
+
         <div class="shadow-md w-full md:w-2/3 mx-auto mt-4 border-2 border-solid border-white rounded-lg my-20">
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What is space tourism?</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">Space tourism is the practice of traveling to and experiencing space for leisure, recreational, or business purposes. It is a relatively new industry, but it has the potential to become a major sector of the tourism industry in the future.</p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What is space tourism?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">Space tourism is the practice of traveling to and experiencing space
+                            for leisure, recreational, or business purposes. It is a relatively new industry, but it has
+                            the potential to become a major sector of the tourism industry in the future.</p>
+                    </div>
             </div>
             </label>
         </div>
@@ -109,16 +119,23 @@
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">Who can go on an Astrocruise trip?
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">Currently, Astrocruise trips are only available to individuals who are in good physical and mental health and can afford the high cost of the trip. Passengers must also be at least 18 years of age, as well as pass a medical evaluation.
-                </p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">Who can go on an Astrocruise trip?
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">Currently, Astrocruise trips are only available to individuals who are
+                            in good physical and mental health and can afford the high cost of the trip. Passengers must
+                            also be at least 18 years of age, as well as pass a medical evaluation.
+                        </p>
+                    </div>
             </div>
             </label>
         </div>
@@ -127,14 +144,22 @@
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">How much does an Astrocruise trip cost?</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">The cost of an Astrocruise trip can vary significantly depending on the length and nature of the trip, as well as the conditions of the destination. For more information, visit our <a href="Pricing.html">Pricing section.</a> </p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">How much does an Astrocruise trip
+                        cost?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">The cost of an Astrocruise trip can vary significantly depending on
+                            the length and nature of the trip, as well as the conditions of the destination. For more
+                            information, visit our <a href="Pricing.html">Pricing section.</a> </p>
+                    </div>
             </div>
             </label>
         </div>
@@ -143,14 +168,22 @@
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What kind of training will I need to undergo before going on an Astrocruise trip?</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">We require passengers to undergo training before going on a trip. This training may include physical conditioning, spaceflight simulations, and education about the specifics of space travel. You can learn more in our <a href="">Training</a> section.</p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What kind of training will I need to
+                        undergo before going on an Astrocruise trip?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">We require passengers to undergo training before going on a trip. This
+                            training may include physical conditioning, spaceflight simulations, and education about the
+                            specifics of space travel. You can learn more in our <a href="">Training</a> section.</p>
+                    </div>
             </div>
             </label>
         </div>
@@ -159,14 +192,22 @@
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">Is space tourism safe?</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">Like any form of travel, space tourism carries some risks. However, we are working to develop technologies and procedures to ensure the safety of their passengers. It is important to remember that space travel is an inherently risky endeavor, and you should be aware of the risks involved before deciding to book a trip.</p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">Is space tourism safe?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">Like any form of travel, space tourism carries some risks. However, we
+                            are working to develop technologies and procedures to ensure the safety of their passengers.
+                            It is important to remember that space travel is an inherently risky endeavor, and you
+                            should be aware of the risks involved before deciding to book a trip.</p>
+                    </div>
             </div>
             </label>
         </div>
@@ -176,49 +217,58 @@
             <!--tab-->
             <div class="overflow-hidden border-t">
                 <label>
-                    <input type="checkbox" class="absolute opacity-0 peer"/>
-                <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What is it like on the spaceships?</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
-                  </svg>
-                  
-                  
-                <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out"><p class="p-5 text-white">At Astrocruise, we want only the best for our valued passengers. On ships such as the Astrocruise <i>Phoenix</i>, you will be given the most luxurious conditions and the most awe-inspiring views of our beautiful cosmos.</p></div>
+                    <input type="checkbox" class="absolute opacity-0 peer" />
+                    <p class="p-5 inline-block text-white w-11/12 cursor-pointer">What is it like on the spaceships?</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="white"
+                        class="w-6 h-6 inline-block float-right mt-5 mr-2 rounded-lg peer-checked:rotate-180 ease-in-out duration-1000 cursor-pointer ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M4.5 12.75l7.5-7.5 7.5 7.5m-15 6l7.5-7.5 7.5 7.5" />
+                    </svg>
+
+
+                    <div class="bg-none max-h-0 peer-checked:max-h-screen duration-1000 ease-in-out">
+                        <p class="p-5 text-white">At Astrocruise, we want only the best for our valued passengers. On
+                            ships such as the Astrocruise <i>Phoenix</i>, you will be given the most luxurious
+                            conditions and the most awe-inspiring views of our beautiful cosmos.</p>
+                    </div>
             </div>
             </label>
         </div>
 
 
-        
-          
-          
-          
+        <div
+            class="py-10 lg:py-2 w-full text-sm text-gray-900 bg-none rounded-lg shadow-sm focus:ring-primary-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 flex items-center justify-center flex-auto gap-12 py-15">
 
-
-
-    
-    <div class="py-10 lg:py-2 block w-full text-sm text-gray-900 bg-none rounded-lg shadow-sm focus:ring-primary-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 flex items-center justify-center flex-auto gap-12 py-15">
-
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-12 h-12">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-12 h-12">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
-          </svg>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-12 h-12">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
-          </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+                class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+                class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+                class="w-12 h-12">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+            </svg>
         </div>
-          <p class="relative mb-8 pb-10 lg:mb-16 font-medium text-center text-white sm:text-xl my-10">Any questions? Visit our <b><a href="../dist/Contact.html">Contact page</a>.</b> You can also Email us at <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u></p>
+        <p class="relative mb-8 pb-10 lg:mb-16 font-medium text-center text-white sm:text-xl my-10">Any questions? Visit
+            our <b><a href="../dist/Contact.html">Contact page</a>.</b> You can also Email us at
+            <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u>
+        </p>
 
-    
-        
-    
+
+
+
     </div>
 
 
 
-<footer></footer>
+    <footer></footer>
 
 
 
@@ -232,21 +282,21 @@
 
 <!--JavaScript for menu toggle-->
 <script>
-const btn = document.querySelector(".menu-button-moblie");
-const menu = document.querySelector(".moblie-menu")
+    const btn = document.querySelector(".menu-button-moblie");
+    const menu = document.querySelector(".moblie-menu")
 
-btn.addEventListener("click", () =>{
-    menu.classList.toggle("translate-x-full")
-})
+    btn.addEventListener("click", () => {
+        menu.classList.toggle("translate-x-full")
+    })
 
-const exit_btn = document.querySelector(".exit-button");
-exit_btn.addEventListener("click", ()=>{
-    menu.classList.toggle("translate-x-full")
-})
+    const exit_btn = document.querySelector(".exit-button");
+    exit_btn.addEventListener("click", () => {
+        menu.classList.toggle("translate-x-full")
+    })
 
-moblieMenu.style.overflow = 'hidden';
+    moblieMenu.style.overflow = 'hidden';
 
-</script> 
+</script>
 
 
 
