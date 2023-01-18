@@ -1093,6 +1093,10 @@ video {
   background-attachment: fixed;
 }
 
+.bg-scroll {
+  background-attachment: scroll;
+}
+
 .bg-center {
   background-position: center;
 }
@@ -1625,6 +1629,10 @@ video {
 
   .md\:bg-cover {
     background-size: cover;
+  }
+
+  .md\:bg-fixed {
+    background-attachment: fixed;
   }
 
   .md\:bg-center {
