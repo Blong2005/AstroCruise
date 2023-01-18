@@ -1085,6 +1085,10 @@ video {
   background-position: center;
 }
 
+.bg-right {
+  background-position: right;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1601,6 +1605,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(8rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:bg-center {
+    background-position: center;
   }
 
   .md\:pt-\[8rem\] {
