@@ -46,7 +46,7 @@
 
         </div>
 
-        <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
+        <nav class="navbar overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
             <!--Moblie Menu-->
             <div
                 class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-40 w-64 transition duration-1000 ease-in-out overflow-auto">
@@ -88,7 +88,7 @@
                         </a>
                     </div>
                     <!--primary nav-->
-                    <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center">
+                    <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center bg">
                         <a href="FAQ.html">
                             <div class>FAQ</div>
                         </a>
@@ -205,6 +205,16 @@
         </div>
         <div class="text-white text-center mb-4">Made with Tailwind CSS Utility Class</div>
     </footer>
+    <script>
+        const nav = document.querySelector('.navbar')
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 150)
+                nav.classList.add("bg-slate-900", "ease-in-out", "duration-1000")
+            else if (window.scrollY < 150)
+                nav.classList.remove("bg-slate-900")
+
+        });
+    </script>
 </body>
 
 <!--JavaScript for menu toggle-->
