@@ -1065,8 +1065,8 @@ video {
   background-image: none;
 }
 
-.bg-croppedrocket {
-  background-image: url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/SpaceX-Falcon-9-launch-in-night-sky(Cropped).jpg?raw=true");
+.bg-rocket {
+  background-image: url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/most-powerful-rockets-ever-built-header-scaled.jpg?raw=true");
 }
 
 .bg-cover {
@@ -1597,10 +1597,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(8rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:bg-rocket {
-    background-image: url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/SpaceX-Falcon-9-launch-in-night-sky.jpg?raw=true");
   }
 
   .md\:pt-\[8rem\] {

@@ -24,7 +24,7 @@ module.exports = {
       },
       backgroundImage: {
         rocket:
-          'url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/SpaceX-Falcon-9-launch-in-night-sky.jpg?raw=true")',
+          'url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/most-powerful-rockets-ever-built-header-scaled.jpg?raw=true")',
         croppedrocket:
           'url("https://github.com/ColdAndromeda/AstroCruise/blob/main/dist/Images/SpaceX-Falcon-9-launch-in-night-sky(Cropped).jpg?raw=true")',
       },
