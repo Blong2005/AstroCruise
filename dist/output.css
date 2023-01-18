@@ -1101,6 +1101,10 @@ video {
   background-position: right;
 }
 
+.bg-right-top {
+  background-position: right top;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
