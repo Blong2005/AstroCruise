@@ -1081,6 +1081,14 @@ video {
   background-size: cover;
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
 .bg-fixed {
   background-attachment: fixed;
 }
@@ -1609,6 +1617,10 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(8rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(8rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
   }
 
   .md\:bg-center {
