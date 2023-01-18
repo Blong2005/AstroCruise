@@ -8,30 +8,35 @@
     <title>AstroCruise</title>
     <link rel="stylesheet" href="output.css">
     <link rel="icon" type="image/x-icon" href="./Images/Blacklogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Trispace:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="bg-slate-900">
-    <nav
-        class="overflow-x-hidden w-full border-solid border-2 border-blue-450 rounded-xl fixed top-0 left-0 right-0 bg-slate-900">
+<body class="bg-slate-900 font-trispace">
+    <nav class="overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0">
         <!--Moblie Menu-->
         <div
-            class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-10 w-64 transition duration-1000 ease-in-out overflow-auto">
+            class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-40 w-64 transition duration-1000 ease-in-out overflow-auto">
             <button class="px-1 py-1 exit-button">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-7 h-7">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>
             </button>
-
             <div class="flex justify-center">
-                <div class="flex flex-col py-10 space-y-5 content-evenly text-xl  ">
+                <div class="flex flex-col py-10 space-y-5 content-evenly text-xl">
+                    <a href="index.html">
+                        <div class>HOME</div>
+                    </a>
                     <a href="FAQ.html">
                         <div class>FAQ</div>
                     </a>
                     <a href="Launches.html">
                         <div>LAUNCHES</div>
                     </a>
-                    <a href="Launches.html">
+                    <a href="Training.html">
                         <div>TRAINING</div>
                     </a>
                     <a href="Contact.html">
@@ -43,24 +48,23 @@
                 </div>
             </div>
         </div>
-        <div class="px-8">
+        <div class="px-[1rem] sm:px-8 z-1">
             <div class="flex justify-between">
                 <!--Logo-->
-                <div class="flex py-4">
+                <div class="flex py-4 z-1">
                     <a href="index.html">
-                        <img class="max-w-full h-8" src="./Images/Logo.png" alt="AstroCruiseLogo">
+                        <img class="max-w-full h-8 z-1" src="./Images/Logo.png" alt="AstroCruiseLogo">
                     </a>
                 </div>
-
                 <!--primary nav-->
-                <div class="hidden md:flex lg:flex space-x-5 text-2xl font-sans text-yellow-50 items-center ">
+                <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center">
                     <a href="FAQ.html">
                         <div class>FAQ</div>
                     </a>
                     <a href="Launches.html">
                         <div>LAUNCHES</div>
                     </a>
-                    <a href="Contact.html">
+                    <a href="Training.html">
                         <div>TRAINING</div>
                     </a>
                     <a href="Contact.html">
@@ -78,11 +82,11 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
                         </svg>
-
                     </button>
                 </div>
             </div>
     </nav>
+    </div>
 
     <!--Content-->
     <section class="bg-gray-900">
