@@ -306,13 +306,15 @@
 
 
     <footer></footer>
-
-
-
-
-
-
-
+    <script>
+        const nav = document.querySelector('.navbar')
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 150)
+                nav.classList.add("bg-slate-900", "ease-in-out", "duration-1000")
+            else if (window.scrollY < 150)
+                nav.classList.remove("bg-slate-900")
+        });
+    </script>
 
 
 </body>

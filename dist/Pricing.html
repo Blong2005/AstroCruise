@@ -93,7 +93,7 @@
     <!--Content-->
     <div class="w-full flex justify-center mb-16 md:pb-20 pb-4">
         <img src="./Images/Pricing.png" alt="Pricing"
-            class=" w-2/3 sm:w-1/3 ease-in-out duration-1000 pt-[5.5rem] md:pt-[8rem] mx-auto pb-10 py-20 pt-24 md:absolute">
+            class=" w-2/3 sm:w-1/3 ease-in-out duration-1000 md:pt-[8rem] mx-auto pb-10 py-20 pt-24 md:absolute">
     </div>
 
     <div
@@ -213,6 +213,16 @@
         our <b><a href="../dist/Contact.html" class="z-0">Contact page</a>.</b> You can also Email us at
         <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u>
     </p>
+    <script>
+        const nav = document.querySelector('.navbar')
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 150)
+                nav.classList.add("bg-slate-900", "ease-in-out", "duration-1000")
+            else if (window.scrollY < 150)
+                nav.classList.remove("bg-slate-900")
+
+        });
+    </script>
 
 </body>
 
