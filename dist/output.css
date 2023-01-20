@@ -678,6 +678,14 @@ video {
   margin-bottom: 2.25rem;
 }
 
+.mb-64 {
+  margin-bottom: 16rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -1201,6 +1209,10 @@ video {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pt-60 {
+  padding-top: 15rem;
 }
 
 .text-center {
