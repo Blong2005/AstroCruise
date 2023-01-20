@@ -21,7 +21,7 @@
     <nav class="navbar overflow-x-hidden w-full border-blue-450 fixed top-0 left-0 right-0 font-trispace">
         <!--Moblie Menu-->
         <div
-            class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full z-40 w-64 transition duration-1000 ease-in-out overflow-auto">
+            class="moblie-menu m-0 bg-slate-800 text-white fixed mr-0 inset-y-0 right-0 transform translate-x-full w-64 transition duration-1000 ease-in-out overflow-auto z-2">
             <button class="px-1 py-1 exit-button">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-7 h-7">
@@ -51,16 +51,16 @@
                 </div>
             </div>
         </div>
-        <div class="px-[1rem] sm:px-8 z-1">
+        <div class="px-[1rem] sm:px-8">
             <div class="flex justify-between">
                 <!--Logo-->
-                <div class="flex py-4 z-1">
+                <div class="flex py-4">
                     <a href="index.html">
-                        <img class="max-w-full h-8 z-1" src="./Images/Logo.png" alt="AstroCruiseLogo">
+                        <img class="max-w-full h-8 relative z-[-1]" src="./Images/Logo.png" alt="AstroCruiseLogo">
                     </a>
                 </div>
                 <!--primary nav-->
-                <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center bg">
+                <div class="hidden md:flex lg:flex space-x-5 text-xs sm:text-2xl text-yellow-50 items-center">
                     <a href="FAQ.html">
                         <div class>FAQ</div>
                     </a>
@@ -88,6 +88,7 @@
                     </button>
                 </div>
             </div>
+        </div>
     </nav>
 
     <!--Content-->
@@ -97,10 +98,11 @@
     </div>
 
     <div
-        class="md:flex md:items-center md:justify-center flex-row place-content-center mx-auto md:w-full min-h-screen justify-center items-center font-rubik relative -z-10 self-auto">
+        class="md:flex md:items-center md:justify-center flex-row place-content-center mx-auto md:w-full min-h-screen justify-center items-center font-rubik  self-auto">
 
 
-        <div class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 m-auto">
+        <div
+            class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 m-auto  z-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="green"
                 class="w-6 h-6 float-left">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -112,9 +114,9 @@
                     d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
             </svg>
 
-            <b>
-                <h5 class="mb-2 text-2xl text-center text-green-400">Budget Plan</h5>
-            </b>
+
+            <h5 class="mb-2 text-2xl text-center text-green-400"><b>Budget Plan</b></h5>
+
             <p class="text-center mb-3 text-white">Trying to become an astronaut on a budget? This plan is as
                 bare-bones as they come, cutting any expenses that would add extra dollars to your trip. It may not be
                 as luxurious, but it gets the job done for <u><b>$1,000,000.</b></u></p>
@@ -123,7 +125,7 @@
                 </a></p>
         </div>
         <div
-            class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 mx-auto my-5 relative ">
+            class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 mx-auto my-5  ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="orange"
                 class="w-6 h-6 float-left">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -141,9 +143,9 @@
             </svg>
 
 
-            <b>
-                <h5 class="mb-2 text-2xl text-center text-amber-300">Deluxe Package</h5>
-            </b>
+
+            <h5 class="mb-2 text-2xl text-center text-amber-300">Deluxe Package</h5>
+
             <p class="text-center mb-3 text-white">The Astrocruise Deluxe Package is our most extravagant and
                 luxurious trip plan available. This plan will provide you with the most amazing conditions you could ask
                 for. The best food, the most comfortable quarters, and a complementary bottle of champagne at the ring
@@ -154,7 +156,7 @@
                 </a></p>
         </div>
         <div
-            class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 mx-auto my-5 relative">
+            class="max-w-sm p-6 border-solid border-2 border-white shadow-lg rounded-lg bg-gray-800 md:mx-5 mx-auto my-5 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="magenta"
                 class="w-6 h-6 float-left">
                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -168,15 +170,15 @@
             </svg>
 
 
-            <b>
-                <h5 class="mb-2 text-2xl text-center text-pink-500">Family Plan</h5>
-            </b>
+
+            <h5 class="mb-2 text-2xl text-center text-pink-500">Family Plan</h5>
+
 
             <p class="text-center mb-3 text-white">The family plan includes everything you might need for a group of
                 3-5. Food and toiletries are all taken care of so you and your family can enjoy the beauty of the
                 cosmos. for a low price of <b><u>$3,000,000.</u></b></p>
-            <p class="text-center text-lg relative"><a href="Contact.html"
-                    class="-z-1 text-center inline-flex text-blue-400 relative">Contact for Purchase
+            <p class="text-center text-lg "><a href="Contact.html"
+                    class="text-center inline-flex text-blue-400 ">Contact for Purchase
                 </a></p>
         </div>
 
@@ -207,12 +209,14 @@
                 d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
         </svg>
     </div>
+    <div class="relative z-[-1]">
+        <p class="mb-8 pb-10 lg:mb-16 font-medium text-center text-white sm:text-xl my-10 relative">Any questions?
+            Visit
+            our <b><a href="../dist/Contact.html">Contact page</a>.</b> You can also Email us at
+            <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u>
+        </p>
+    </div>
 
-    <p class="mb-8 pb-10 lg:mb-16 font-medium text-center text-white sm:text-xl my-10 -z-10 relative">Any questions?
-        Visit
-        our <b><a href="../dist/Contact.html" class="z-0">Contact page</a>.</b> You can also Email us at
-        <u><b><i>help@AstroCruise.com</i></b></u> or call us at <u><b>1800-ASTRO.</b></u>
-    </p>
     <script>
         const nav = document.querySelector('.navbar')
         window.addEventListener('scroll', () => {
@@ -223,6 +227,7 @@
 
         });
     </script>
+
 
 </body>
 

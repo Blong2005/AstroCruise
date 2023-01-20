@@ -570,6 +570,18 @@ video {
   z-index: 50;
 }
 
+.z-auto {
+  z-index: auto;
+}
+
+.-z-20 {
+  z-index: -20;
+}
+
+.z-\[-1\] {
+  z-index: -1;
+}
+
 .order-last {
   order: 9999;
 }
