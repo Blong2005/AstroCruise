@@ -989,6 +989,10 @@ video {
   overflow-x: hidden;
 }
 
+.scroll-auto {
+  scroll-behavior: auto;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
 }
